@@ -28,16 +28,16 @@
 .footer--inner .container{
     overflow: hidden;
 }
-.am-slider-default ul li div{
+.am-slider-a1 ul li div{
     /* height: 400px; */
     padding: 130px 0;
     text-align: center;
     color: #fff;
 }
 
-.am-slider-default ul li div h2{
+.am-slider-a1 ul li div h2{
     font-size: 36px;
 }
-.am-slider-default ul li div p{
+.am-slider-a1 ul li div p{
     font-size: 24px;
 }
