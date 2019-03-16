@@ -41,3 +41,17 @@
 .am-slider-a1 ul li div p{
     font-size: 24px;
 }
+.am-fr {
+    float: right;
+}
+.nav-contain .nav-inner .am-nav li {
+    padding: 10px 10px 10px 10px;
+}
+.nav-inner .logo{
+    padding: 15px 0;
+}
+.top-phone{
+    text-align: right;
+    padding: 10px 30px 0 0;
+    color: #969696;
+}
