@@ -3,4 +3,11 @@
 .promo_detailed .promo_detailed--cta .promo_detailed--cta_wrap .promo_detailed--cta_text {
     padding: 10px;
     text-indent:2em;
+    font-size: 14px;
+    line-height: 24px;
+}
+.promo_detailed .promo_detailed-img{
+    z-index: -1;
+    width: 48%;
+    right: inherit;
 }
