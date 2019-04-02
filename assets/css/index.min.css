@@ -6,8 +6,15 @@
     font-size: 14px;
     line-height: 24px;
 }
-.promo_detailed .promo_detailed-img{
-    z-index: -1;
-    width: 48%;
-    right: inherit;
+ @media only screen and (min-width:641px) {  /*大屏幕中使用 */
+    .product1-show-container .friends{
+        padding-left: 12.5%;
+    }
+    .promo_detailed .promo_detailed-img{
+        z-index: -1;
+        width: 48%;
+        right: inherit;
+    }
+    
 }
+

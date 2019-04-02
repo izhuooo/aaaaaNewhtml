@@ -62,3 +62,20 @@
 .am-slides .am-btn{
     font-size: 14px;
 }
+
+/* 小屏幕中使用 */
+@media only screen and (max-width: 640px) {
+    .friends [class*="am-u-"] {
+        margin-bottom: 10px;
+    }
+    
+    .footer--inner .container-fuld .container div {
+        clear: both !important;
+        float: inherit !important;
+        text-align: center;
+    }
+    .m-header .m-logo {
+        margin: inherit;
+        margin-left: 25%;
+    }
+}
