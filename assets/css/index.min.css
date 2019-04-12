@@ -6,6 +6,9 @@
     font-size: 14px;
     line-height: 24px;
 }
+.promo_detailed{
+    background: inherit;
+}
  @media only screen and (min-width:641px) {  /*大屏幕中使用 */
     .product1-show-container .friends{
         padding-left: 12.5%;
@@ -14,6 +17,13 @@
         z-index: -1;
         width: 48%;
         right: inherit;
+        background-color: inherit;
+    }
+    .promo_detailed .promo_detailed-img div{
+        background: #383d61;
+        height: 80%;
+        margin-top: 6%;
+        border-radius: 0 30px 30px 0;
     }
     
 }
