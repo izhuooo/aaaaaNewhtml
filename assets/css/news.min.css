@@ -6,5 +6,5 @@
     color: #262626 !important;
 }
 .news-section .container .article .article--content p{
-    text-indent: 2em;
+    /* text-indent: 2em; */
 }

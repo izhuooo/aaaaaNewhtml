@@ -62,10 +62,36 @@
 .am-slides .am-btn{
     font-size: 14px;
 }
+.img-min{
+    width: 50% !important;
+    margin: 0 auto;
+}
 .img-text{
     margin-top: 10px;
     text-align: center;
     color: gray;
+}
+
+    /* 菜单hover变化 */
+.nav-contain .nav-inner .am-nav .menu-item:hover{
+    background: #4c5071;
+}
+.nav-contain .nav-inner .am-nav .menu-item:hover a{
+    background: inherit;
+    color: white;
+}
+.blog_sidebar .widget ul li a{
+    display: block;
+    width: 100%;
+    
+}
+.blog_sidebar .widget ul li:hover{
+    background: #383d61;
+    color: white !important;
+}
+
+.blog_sidebar .widget ul li:hover a{
+    color: white !important;
 }
 
 /* 小屏幕中使用 */
