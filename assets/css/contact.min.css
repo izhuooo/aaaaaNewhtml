@@ -3,3 +3,7 @@
     border-top: none;
     margin-top: 0px;
 }
+.section--description{
+    text-align: left !important;
+    text-indent: 2em !important;
+}

@@ -8,3 +8,5 @@
 .news-section .container .article .article--content p{
     /* text-indent: 2em; */
 }
+.am-u-md-9 .article--header h2{text-align: center}
+.am-u-md-9 .article--content figure{text-align: center}
