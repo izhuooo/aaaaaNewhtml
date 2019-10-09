@@ -9,6 +9,13 @@
 .promo_detailed{
     background: inherit;
 }
+.left-block{
+    background-color: #383d61 ;
+    margin-top: 20px;
+}
+.left-block  .promo_detailed--cta {
+    height: 484px !important;
+}
  @media only screen and (min-width:641px) {  /*大屏幕中使用 */
     .product1-show-container .friends{
         padding-left: 12.5%;
