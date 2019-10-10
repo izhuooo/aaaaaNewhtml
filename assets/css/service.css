@@ -1,0 +1,10 @@
+html {overflow-x:hidden;}
+
+.custom_service p img {display: inline; vertical-align:middle;}
+.scrollsidebar{position:absolute; z-index:999; top:350px;right:0}
+
+.side_title,.side_bottom,.close_btn,.show_btn {background:url(../images/sidebar_bg.png) no-repeat;}
+.show_btn , .side_blue .show_btn {background-position:-119px 0;}
+.side_green .show_btn {background-position:-147px 0;}
+.show_btn{ width:25px; height:112px; overflow:hidden; margin-top:50px; float:left; cursor:pointer;}
+.show_btn span { display:none;}

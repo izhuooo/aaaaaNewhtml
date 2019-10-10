@@ -98,6 +98,33 @@
 .text-center{text-align: center}
 .top-nav{margin-top: 35px}
 
+/* 菜单相关 */
+.nav-contain .nav-inner .am-nav li > a,.nav-contain .nav-inner .am-nav li > a:link{ 
+    text-decoration:none;
+    position:relative; 
+}
+/* .top-nav >.am-nav  > li > a,.top-nav >.am-nav  > li > a:link{ 
+    color: #996699;
+} */
+.top-nav >.am-nav  > li > a:after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #6975a6;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition: all .2s;
+}
+.top-nav >.am-nav  > li > a:hover {
+    color: #6975a6;
+    background: #fff;
+}
+.top-nav >.am-nav  > li > a:hover:after,.top-nav >.am-nav  > li > a.active:after{
+    left: 0%;
+    width: 100%;
+}
+
 /* 小屏幕中使用 */
 @media only screen and (max-width: 640px) {
     .friends [class*="am-u-"] {
